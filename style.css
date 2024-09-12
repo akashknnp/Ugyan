@@ -1,0 +1,157 @@
+body{
+    height: 100vh;
+    border:0px;
+    padding: 0px;
+    
+}
+.mainmenu{
+    background-color:whitesmoke;
+    width:50%;
+    height:100vh;
+}
+.main{
+    display:flex;
+}
+.submenu{
+    background-color: white;
+    width:100%;
+    height:100vh;
+    
+
+}
+.image{
+    width:100%;
+}
+.options{
+    display: block;
+    
+}
+.op{
+    width:100%;
+    height:60px;
+    display: flex;
+    align-items: center ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: large;
+    padding:5px;
+}
+.op:hover{
+    background-color: antiquewhite;
+    font-weight: 900;
+    font-size:larger
+}
+.op-img{
+    width:20px;
+}
+.op-img:hover{
+    height:75%;
+    width:75%;
+}
+
+.one{
+    width:600px;
+    height:400px;
+    background-color: white;
+    gap:5px;
+    border:1px solid black;
+    border-radius:10px;
+}
+.two{
+    width:400px;
+    height:400px;
+    background-color:white;
+    gap:5px;
+    border:1px solid black;
+    border-radius:10px;
+}
+.one>p{
+    font-weight: 600;
+    padding-left:5px;
+}
+.month{
+    display:flex;
+    padding-left: 5px;
+    justify-content: flex-start;  
+}
+.m{
+    border:1px solid grey;
+    padding:5px;
+}
+.filter{
+    margin-left:300px;
+    margin-right:10px;
+    background-color: blue;
+    height:50px;
+    border-radius: 5px;
+}
+
+.num{
+    padding-top: 50px;
+}
+.num>div{
+    padding: 5px;
+    font-size:medium;
+    font-weight: 600;
+    padding-left:20px;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    padding-top:10px;
+    border-radius:10px;
+}
+.circle{
+    background-color: aquamarine;
+    border-radius: 50%;
+    width:290px;
+    height:290px;
+    margin-top:30px;
+}
+
+.circle>p{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    padding-top:90px;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.perc{
+    padding-top:50px;
+}
+.perc>p{
+    font-size: xx-large;
+}
+.search{
+    display: flex;
+    padding-left: 10px;
+}
+.navbar{
+    width:700px;
+    background-color:azure;
+    margin:10px;
+    border-radius:7px;
+    padding:5px;
+}
+.search>img{
+    width:40px;
+    height:40px;
+    padding-top:9px;
+}
+.search>p{
+    font-size: larger;
+    padding-left:15px;
+    color:rgba(0, 0, 0, 0.315);
+}
+.first-row{
+    display: flex;
+    gap:10px;
+}
+
+.mic{
+    width:30px;
+    padding: 5px;
+    padding-left:400px;
+    padding-top:8px;
+}
